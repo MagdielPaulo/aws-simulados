@@ -3,7 +3,7 @@ import { GAB, getQuestion } from './data/questions.js';
 const STORAGE_KEY = 'aws_v4';
 
 export const state = {
-  view: 'home',       // 'home' | 'study' | 'mindmap' | 'treemap' | 'sevensteps'
+  view: 'home',       // 'home' | 'study' | 'sevensteps'
   sim: 1,
   qNum: 1,
   sel: [],
@@ -15,8 +15,6 @@ export const state = {
   progress: {},
   wrongQueue: null,
   wrongIndex: 0,
-  selectedMapNode: null,
-  newlyUnlocked: [],
 };
 
 // ─── LOAD ──────────────────────────────────────
